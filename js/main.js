@@ -23,7 +23,7 @@ function init() {
 	// Setting up the box geometry
 	const geometry = new THREE.BoxGeometry(2, 2, 2);
 	// Setting up texture and applying it to the geometry
-	const texture = new THREE.TextureLoader().load('../textures/water.jpg');
+	const texture = new THREE.TextureLoader().load('/textures/jp-pattern.jpg');
 	const material = new THREE.MeshBasicMaterial({ map: texture });
 	// Setting up the cube
 	cube = new THREE.Mesh(geometry, material);
